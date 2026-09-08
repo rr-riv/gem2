@@ -27,10 +27,10 @@
 
         layer_1 {
             bindings = <
-&kp TAB           &kp HASH        &kp EXCL       &kp AT       &kp LBKT   &kp N7             &kp N8        &kp N9          &kp N0    &kp BACKSPACE
-&kp ESCAPE        &kp QUESTION    &kp AMPERSAND  &kp INT_YEN  &kp RBKT   &kp N4             &kp N5        &kp N6          &kp DOT   &kp EQUAL
-&kp PAGE_DOWN     &kp LC(X)       &kp LC(C)      &kp LC(V)    &kp COLON  &kp N1             &kp N2        &kp N3          &kp PLUS  &kp ASTRK
-&kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp UP_ARROW   &mkp RCLK    &mkp LCLK  &kp LC(SEMICOLON)  &kp UP_ARROW  &kp DOWN_ARROW  &to 4     &kp DEL
+&kp TAB           &kp HASH        &kp EXCL       &kp AT     &kp LBKT   &kp N7             &kp N8        &kp N9          &kp N0    &kp BACKSPACE
+&kp ESCAPE        &kp QUESTION    &kp AMPERSAND  &kp APOS   &kp RBKT   &kp N4             &kp N5        &kp N6          &kp DOT   &kp EQUAL
+&kp PAGE_DOWN     &kp LG(X)       &kp LG(C)      &kp LG(V)  &kp COLON  &kp N1             &kp N2        &kp N3          &kp PLUS  &kp ASTRK
+&kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp UP_ARROW   &mkp RCLK  &mkp LCLK  &kp LC(SEMICOLON)  &kp UP_ARROW  &kp DOWN_ARROW  &to 4     &kp DEL
             >;
         };
 
