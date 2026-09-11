@@ -9,10 +9,10 @@
 
         layer_0 {
             bindings = <
-&mt LCTRL Q       &kp W        &kp E          &kp R      &kp T        &kp Y        &kp U      &kp I      &kp O         &kp P
-&mt LEFT_SHIFT A  &kp S        &lt 3 D        &kp F      &kp G        &kp H        &kp J      &kp K      &kp L         &mt LEFT_SHIFT MINUS
-&lt 4 Z           &kp X        &kp C          &kp V      &kp B        &kp N        &kp M      &kp COMMA  &kp UP_ARROW  &mt LEFT_ALT DOT
-&kp LGUI          &kp PAGE_UP  &kp PAGE_DOWN  &mkp LCLK  &lt 2 SPACE  &lt 2 ENTER  &kp SPACE  &kp LEFT   &kp DOWN      &kp RIGHT
+&mt LCTRL Q       &kp W        &kp E          &kp R      &kp T        &kp Y        &kp U          &kp I      &kp O         &kp P
+&mt LEFT_SHIFT A  &kp S        &lt 3 D        &kp F      &kp G        &kp H        &kp J          &kp K      &kp L         &mt LEFT_SHIFT MINUS
+&lt 4 Z           &kp X        &kp C          &kp V      &kp B        &kp N        &kp M          &kp COMMA  &kp UP_ARROW  &mt LEFT_ALT DOT
+&kp LGUI          &kp PAGE_UP  &kp PAGE_DOWN  &mkp LCLK  &lt 2 SPACE  &lt 2 ENTER  &kp BACKSPACE  &kp LEFT   &kp DOWN      &kp RIGHT
             >;
         };
 
@@ -29,8 +29,8 @@
             bindings = <
 &kp TAB                &kp HASH      &kp EXCL       &kp AT     &kp LBKT   &kp N7             &kp N8  &kp N9  &kp N0     &kp BACKSPACE
 &mt LEFT_SHIFT ESCAPE  &kp QUESTION  &kp AMPERSAND  &kp APOS   &kp RBKT   &kp N4             &kp N5  &kp N6  &kp SLASH  &mt LEFT_SHIFT EQUAL
-&kp PAGE_DOWN          &kp LG(X)     &kp LG(C)      &kp LG(V)  &kp COLON  &kp N1             &kp N2  &kp N3  &kp PLUS   &kp ASTRK
-&kp LEFT_COMMAND       &kp HOME      &kp END        &mkp RCLK  &mkp LCLK  &kp LC(SEMICOLON)  &none   &none   &none      &none
+&kp LG(W)              &kp LG(X)     &kp LG(C)      &kp LG(V)  &kp COLON  &kp N1             &kp N2  &kp N3  &kp PLUS   &kp ASTRK
+&kp LG(Z)              &kp HOME      &kp END        &mkp RCLK  &mkp LCLK  &kp LC(SEMICOLON)  &none   &none   &none      &none
             >;
         };
 
