@@ -30,7 +30,7 @@
 &kp TAB                &kp HASH      &kp EXCL       &kp AT     &kp LBKT   &kp N7             &kp N8  &kp N9  &kp N0     &kp BACKSPACE
 &mt LEFT_SHIFT ESCAPE  &kp QUESTION  &kp AMPERSAND  &kp APOS   &kp RBKT   &kp N4             &kp N5  &kp N6  &kp SLASH  &mt LEFT_SHIFT EQUAL
 &kp LG(W)              &kp LG(X)     &kp LG(C)      &kp LG(V)  &kp COLON  &kp N1             &kp N2  &kp N3  &kp PLUS   &kp ASTRK
-&kp LG(Z)              &kp HOME      &kp END        &mkp RCLK  &mkp LCLK  &kp LC(SEMICOLON)  &none   &none   &none      &none
+&kp LG(Z)              &kp HOME      &kp END        &mkp RCLK  &mkp LCLK  &kp LC(SEMICOLON)  &none   &none   &none      &kp INT2
             >;
         };
 
@@ -39,7 +39,7 @@
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &none         &none           &mmv MOVE_UP    &none            &none  &none
 &none           &mkp MB4      &none         &mkp RCLK       &mkp LCLK     &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none  &none
 &none           &none         &none         &msc SCRL_DOWN  &msc SCRL_UP  &none           &mmv MOVE_DOWN  &none            &none  &none
-&none           &mkp MB4      &none         &mkp RCLK       &mkp LCLK     &none           &none           &none            &none  &none
+&none           &mkp MB4      &none         &mkp RCLK       &mkp LCLK     &bt BT_NXT      &none           &none            &none  &none
             >;
         };
 
